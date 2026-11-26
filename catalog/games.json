@@ -1,0 +1,430 @@
+{
+  "schema": 1,
+  "updated": "2026-11-26",
+  "hub": {
+    "min_version": "0.1.2",
+    "motd": "",
+    "news": [
+      {
+        "version": "0.1.2",
+        "date": "2026-11-26",
+        "title": "Oriflamme, Le Dernier Règne, et mises à jour automatiques",
+        "items": [
+          "Deux nouveaux jeux dans la bibliothèque : Oriflamme et Le Dernier Règne, installables comme EN VISIO.",
+          "Au lancement, et de temps en temps tant que FLX Hub est ouvert, tous tes jeux installés se mettent à jour tout seuls."
+        ]
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-11-26",
+        "title": "Jeux, applis et mises à jour automatiques",
+        "items": [
+          "La bibliothèque embarque EN VISIO et tes jeux/applis du PC (Valorant, Rocket League, Fortnite, Spotify, Discord, Streamlabs, OBS), même hors-ligne.",
+          "Les titres non installés restent visibles : un lien ouvre la page d'installation officielle.",
+          "Tu peux ajouter n'importe quel .exe avec « + Ajouter ».",
+          "Au lancement, FLX Hub et tes jeux installés se mettent à jour tout seuls (réglage, activé par défaut)."
+        ]
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-11-26",
+        "title": "Première version de FLX Hub",
+        "items": [
+          "Tes jeux au même endroit : installer, mettre à jour, jouer, désinstaller.",
+          "Opti PC : un bouton pour tout optimiser, un bouton pour tout annuler.",
+          "Stream : pilote Streamlabs ou OBS (scènes, sources, micro, live, enregistrement).",
+          "Signaler un bug : un texte prêt à copier pour Jarvis."
+        ]
+      }
+    ]
+  },
+  "games": [
+    {
+      "id": "en-visio",
+      "kind": "hub",
+      "group": "games",
+      "order": 1,
+      "title": "EN VISIO",
+      "tagline": "La même réunion. Encore. Et encore.",
+      "description": "Jeu d'horreur à anomalies : tu es en visio de 23 h 47 qui recommence en boucle. Tout est normal ? Reste jusqu'à la fin. Quelque chose cloche ? Quitte l'appel. Chapitre 1 dans ta chambre, chapitre 2 à l'hôpital Saint-Aubin, et un mode en ligne de 2 à 4 avec un simple code.",
+      "genres": [
+        "Horreur",
+        "Anomalies",
+        "En ligne"
+      ],
+      "accent": "#e5484d",
+      "cover": "https://flanix7.github.io/assets/img/en-visio/cover.webp",
+      "banner": "https://flanix7.github.io/assets/img/en-visio/02_appel.webp",
+      "logo": "https://flanix7.github.io/assets/img/en-visio/envisio_logo_sombre.png",
+      "website": "https://flanix7.github.io/jeux/en-visio.html",
+      "log_path": "%APPDATA%/Godot/app_userdata/EN VISIO/logs/godot.log",
+      "status": "available",
+      "channels": {
+        "stable": {
+          "version": "0.6.0",
+          "date": "2026-11-26",
+          "url": "https://github.com/Flanix7/en-visio/releases/download/v0.6.0/EN_VISIO_Windows.zip",
+          "size": 51902851,
+          "install_size": 136016698,
+          "sha256": "afd116482b8625383e63f10132354624af58a9d9a3c95d53b3157862df98e8ac",
+          "exe": "EN_VISIO/EN_VISIO_v*.exe",
+          "args": []
+        }
+      },
+      "news": [
+        {
+          "version": "0.6.0",
+          "date": "2026-11-26",
+          "title": "Modes Traître et Entité nomade",
+          "items": [
+            "Mode Traître (3 à 4 joueurs) : l'hôte l'active dans le salon. Un joueur est secrètement le traître et reçoit 4 pouvoirs à usages limités : Brouiller l'écran, Frapper à la porte, Fausse anomalie, Vote truqué. Une accusation d'urgence, puis un vote final.",
+            "Mode Entité nomade (2 à 4 joueurs) : à chaque réunion, l'entité saute sur un joueur au hasard. Sa webcam bugue chez les autres, qui peuvent le prévenir. Vies partagées, l'entité accélère au fil des réunions.",
+            "Le salon propose 4 modes : Classique, Élimination, Traître, Entité nomade.",
+            "Sécurité du mode en ligne renforcée. Tout le monde doit avoir la v0.6.0 pour jouer ensemble."
+          ]
+        },
+        {
+          "version": "0.5.2",
+          "date": "2026-11-25",
+          "title": "Alerte de mise à jour sur Android",
+          "items": [
+            "Au lancement, le jeu vérifie s'il existe une version plus récente.",
+            "Hors-ligne, rien ne s'affiche : tu joues normalement."
+          ]
+        },
+        {
+          "version": "0.5.1",
+          "date": "2026-11-25",
+          "title": "Chapitre 2 — Saint-Aubin",
+          "items": [
+            "Tu te réveilles à l'hôpital Saint-Aubin, chambre 214. Les réunions continuent.",
+            "L'infirmière peut entrer pendant une réunion : ferme les yeux (maintiens F) jusqu'à ce qu'elle reparte.",
+            "Quatre fins : Fuir, Rester, Accepter, et une fin secrète.",
+            "Nouvelles anomalies, ambiance d'hôpital et correctifs."
+          ]
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-11-25",
+          "title": "Mode en ligne de 2 à 4",
+          "items": [
+            "Un code à 4 caractères, pas de compte, pas de port à ouvrir. Marche aussi entre PC et téléphone.",
+            "Mode Élimination optionnel, choisi par l'hôte.",
+            "Personnalisation dans la salle d'attente (couleur, visage, accessoire)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oriflamme",
+      "kind": "hub",
+      "group": "games",
+      "order": 2,
+      "title": "Oriflamme",
+      "tagline": "La dernière équipe en vie sur l'île.",
+      "description": "Battle royale de fantaisie médiévale, cartoon, vue à la 3e personne. Hors ligne contre des bots. Solo, duo, trio ou squad, trois classes, planeur, forme corbeau et beffroi pour forger tes armes. La brume se resserre en six phases.",
+      "genres": [
+        "Battle royale",
+        "Fantaisie",
+        "Hors ligne"
+      ],
+      "accent": "#d4a028",
+      "cover": "res://assets/covers/oriflamme_cover.jpg",
+      "banner": "res://assets/covers/oriflamme_banner.jpg",
+      "logo": "",
+      "website": "",
+      "log_path": "%APPDATA%/Godot/app_userdata/Oriflamme/logs/godot.log",
+      "status": "available",
+      "channels": {
+        "stable": {
+          "version": "0.5.0",
+          "date": "2026-11-26",
+          "url": "https://github.com/Flanix7/flx-hub/releases/download/oriflamme-v0.5.0/Oriflamme_Windows.zip",
+          "size": 55231933,
+          "install_size": 126973214,
+          "sha256": "3ea94891b36a86634002a508ba7ecaa8e81e877ba481778b102c5b6e322329f0",
+          "exe": "Oriflamme/Oriflamme.exe",
+          "args": [],
+          "changelog": [
+            "Style peint : ville fortifiée, ciel cartoon, VFX d'armes et de capacités.",
+            "Planeur et corbeau retravaillés, beffroi audible sur toute l'île.",
+            "Modes Solo, Duo, Trio et Squad, hors ligne contre des bots."
+          ]
+        }
+      },
+      "news": [
+        {
+          "version": "0.5.0",
+          "date": "2026-11-26",
+          "title": "Style peint",
+          "items": [
+            "Direction artistique poussée : ville fortifiée, lanternes, grandes bannières, ciel cartoon.",
+            "VFX d'armes, impacts, cloche du beffroi, transformation Corbeau.",
+            "Animations de course, tir, saut et réception plus lisibles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scarline-zero",
+      "kind": "hub",
+      "group": "games",
+      "order": 2,
+      "title": "SCARLINE ZÉRO",
+      "tagline": "5 contre 5, une bombe, une seule vie par manche.",
+      "description": "FPS tactique en 5 contre 5 : phase d'achat, économie, recul des armes, pose et désamorçage de bombe, grenades, changement de camp à la mi-temps. Première map : Central 24, une supérette ouverte toute la nuit. Pour l'instant, en solo contre des bots.",
+      "genres": [
+        "FPS tactique",
+        "5v5",
+        "Bots"
+      ],
+      "accent": "#ff5a36",
+      "cover": "https://flanix7.github.io/hub/img/scarline-zero/cover.jpg",
+      "banner": "https://flanix7.github.io/hub/img/scarline-zero/banner.jpg",
+      "logo": "https://flanix7.github.io/hub/img/scarline-zero/logo.png",
+      "website": "",
+      "log_path": "%APPDATA%/Godot/app_userdata/SCARLINE ZÉRO/logs/godot.log",
+      "status": "coming_soon",
+      "status_label": "Bientôt",
+      "channels": {
+        "stable": {
+          "version": "",
+          "url": "",
+          "size": 0,
+          "exe": "ScarlineZero/ScarlineZero.exe",
+          "changelog": []
+        }
+      },
+      "news": [],
+      "hidden": true,
+      "_note": "En pause (décision d'Allan, 26/11/2026). Mettre hidden à false pour le réafficher."
+    },
+    {
+      "id": "le-dernier-regne",
+      "kind": "hub",
+      "group": "games",
+      "order": 3,
+      "title": "Le Dernier Règne",
+      "tagline": "Quinze années pour tenir le royaume.",
+      "description": "Jeu de cartes et de royaume en pixel art. Chaque année tu défriches des parcelles, tu poses tes cartes, puis la bataille se lance toute seule. Fusionne tes unités, construis des bâtiments, et survis 15 ans jusqu'à la bataille finale contre le Roi des Cendres.",
+      "genres": [
+        "Cartes",
+        "Stratégie",
+        "Pixel art"
+      ],
+      "accent": "#c9a227",
+      "cover": "res://assets/covers/le-dernier-regne_cover.jpg",
+      "banner": "res://assets/covers/le-dernier-regne_banner.jpg",
+      "logo": "",
+      "website": "",
+      "log_path": "%APPDATA%/Godot/app_userdata/Le Dernier Règne/logs/godot.log",
+      "status": "available",
+      "channels": {
+        "stable": {
+          "version": "0.1.0",
+          "date": "2026-11-26",
+          "url": "https://github.com/Flanix7/flx-hub/releases/download/le-dernier-regne-v0.1.0/LeDernierRegne_Windows.zip",
+          "size": 38690520,
+          "install_size": 110012418,
+          "sha256": "a12b2e6de702bd4ea163a9f105c70f1662278e1f5642e6a84282849dcb2929f2",
+          "exe": "LeDernierRegne/LeDernierRegne.exe",
+          "args": [],
+          "changelog": [
+            "Première version : une partie de 15 ans, royaume de 3×3 à 7×7.",
+            "Conseil royal, marchand, fusions de cartes et bataille finale contre le Roi des Cendres."
+          ]
+        }
+      },
+      "news": [
+        {
+          "version": "0.1.0",
+          "date": "2026-11-26",
+          "title": "Première version",
+          "items": [
+            "Survive 15 années et gagne la bataille finale contre le Roi des Cendres. 3 vies.",
+            "Le royaume grandit de 3×3 à 7×7. Fusionne tes cartes jusqu'au niveau 3.",
+            "Événements : Conseil royal, Marchand, Terres nouvelles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valorant",
+      "kind": "shortcut",
+      "group": "games",
+      "order": 10,
+      "title": "Valorant",
+      "tagline": "FPS tactique compétitif.",
+      "description": "Lance Valorant via le client Riot installé sur ton PC. FLX Hub ne télécharge pas le jeu : s'il n'est pas encore là, le bouton Installer ouvre le site officiel.",
+      "genres": [
+        "FPS",
+        "Compétitif"
+      ],
+      "accent": "#ff4655",
+      "cover": "res://assets/covers/valorant_cover.png",
+      "website": "https://playvalorant.com/fr-fr/",
+      "install_url": "https://playvalorant.com/fr-fr/download/",
+      "detect": {
+        "engine": "riot",
+        "product": "valorant",
+        "args": [
+          "--launch-product=valorant",
+          "--launch-patchline=live"
+        ]
+      }
+    },
+    {
+      "id": "rocket-league",
+      "kind": "shortcut",
+      "group": "games",
+      "order": 11,
+      "title": "Rocket League",
+      "tagline": "Foot motorisé.",
+      "description": "Détecté via Epic Games Launcher (fichiers dans ProgramData) ou Steam. FLX Hub le lance s'il est installé, sinon t'emmène sur la page officielle.",
+      "genres": [
+        "Sport",
+        "Arcade"
+      ],
+      "accent": "#f7b500",
+      "cover": "res://assets/covers/rocket-league_cover.png",
+      "website": "https://www.rocketleague.com/",
+      "install_url": "https://store.epicgames.com/fr/p/rocket-league",
+      "detect": {
+        "engine": "multi",
+        "epic_app_names": [
+          "Sugar",
+          "SugarCore"
+        ],
+        "epic_display_names": [
+          "Rocket League"
+        ],
+        "steam_appid": "252950",
+        "steam_exe": "Binaries/Win64/RocketLeague.exe"
+      }
+    },
+    {
+      "id": "fortnite",
+      "kind": "shortcut",
+      "group": "games",
+      "order": 12,
+      "title": "Fortnite",
+      "tagline": "Battle royale.",
+      "description": "Détecté via les manifests d'Epic Games Launcher. FLX Hub lance le client du jeu, pas l'éditeur.",
+      "genres": [
+        "Battle royale"
+      ],
+      "accent": "#9d4eff",
+      "cover": "res://assets/covers/fortnite_cover.png",
+      "website": "https://www.fortnite.com/",
+      "install_url": "https://www.fortnite.com/download",
+      "detect": {
+        "engine": "epic",
+        "epic_app_names": [
+          "Fortnite"
+        ],
+        "epic_display_names": [
+          "Fortnite"
+        ],
+        "epic_exe_contains": "FortniteClient-Win64-Shipping.exe"
+      }
+    },
+    {
+      "id": "spotify",
+      "kind": "shortcut",
+      "group": "apps",
+      "order": 20,
+      "title": "Spotify",
+      "tagline": "Musique.",
+      "description": "Application de bureau classique (%APPDATA%\\Spotify) ou version Microsoft Store (shell:AppsFolder).",
+      "genres": [
+        "Musique"
+      ],
+      "accent": "#1db954",
+      "cover": "res://assets/covers/spotify_cover.png",
+      "website": "https://www.spotify.com/",
+      "install_url": "https://www.spotify.com/download/windows/",
+      "detect": {
+        "engine": "paths",
+        "exe": [
+          "%APPDATA%/Spotify/Spotify.exe",
+          "%LOCALAPPDATA%/Microsoft/WindowsApps/Spotify.exe"
+        ],
+        "store_family": "SpotifyAB.SpotifyMusic",
+        "store_aumid": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify"
+      }
+    },
+    {
+      "id": "discord",
+      "kind": "shortcut",
+      "group": "apps",
+      "order": 21,
+      "title": "Discord",
+      "tagline": "Discussion vocale et textuelle.",
+      "description": "Lancé via le dossier d'installation Discord dans %LOCALAPPDATA%\\Discord.",
+      "genres": [
+        "Communication"
+      ],
+      "accent": "#5865f2",
+      "cover": "res://assets/covers/discord_cover.png",
+      "website": "https://discord.com/",
+      "install_url": "https://discord.com/download",
+      "detect": {
+        "engine": "discord",
+        "roots": [
+          "%LOCALAPPDATA%/Discord"
+        ]
+      }
+    },
+    {
+      "id": "streamlabs",
+      "kind": "shortcut",
+      "group": "apps",
+      "order": 22,
+      "title": "Streamlabs Desktop",
+      "tagline": "Logiciel de live.",
+      "description": "Anciennement Streamlabs OBS. FLX Hub le lance s'il est installé, et peut aussi le piloter depuis l'onglet Stream.",
+      "genres": [
+        "Streaming"
+      ],
+      "accent": "#00c8a0",
+      "cover": "res://assets/covers/streamlabs_cover.png",
+      "website": "https://streamlabs.com/",
+      "install_url": "https://streamlabs.com/download",
+      "detect": {
+        "engine": "paths",
+        "exe": [
+          "%PROGRAMFILES%/Streamlabs Desktop/Streamlabs Desktop.exe",
+          "%PROGRAMFILES%/Streamlabs/Streamlabs Desktop/Streamlabs Desktop.exe",
+          "%PROGRAMFILES%/Streamlabs OBS/Streamlabs OBS.exe",
+          "%LOCALAPPDATA%/Programs/Streamlabs Desktop/Streamlabs Desktop.exe",
+          "%LOCALAPPDATA%/Programs/Streamlabs OBS/Streamlabs OBS.exe"
+        ]
+      }
+    },
+    {
+      "id": "obs",
+      "kind": "shortcut",
+      "group": "apps",
+      "order": 23,
+      "title": "OBS Studio",
+      "tagline": "Logiciel de live libre.",
+      "description": "Lancé depuis son dossier bin (obligatoire pour OBS). Tu peux aussi le piloter depuis l'onglet Stream.",
+      "genres": [
+        "Streaming"
+      ],
+      "accent": "#9b6bff",
+      "cover": "res://assets/covers/obs_cover.png",
+      "website": "https://obsproject.com/fr",
+      "install_url": "https://obsproject.com/download",
+      "detect": {
+        "engine": "paths",
+        "exe": [
+          "%PROGRAMFILES%/obs-studio/bin/64bit/obs64.exe",
+          "%PROGRAMFILES(X86)%/obs-studio/bin/64bit/obs64.exe",
+          "%PROGRAMFILES%/obs-studio/bin/32bit/obs32.exe"
+        ],
+        "use_exe_dir": true
+      }
+    }
+  ]
+}
